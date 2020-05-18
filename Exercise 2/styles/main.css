@@ -11,6 +11,18 @@ hr {
 	background-color: black;
 }
 
+.thick {
+	height: 10px;
+}
+
+.medium {
+	height: 5px;
+}
+
+.short {
+	margin-left: 5%;
+}
+
 p {
 	flex-shrink: 1;
 	font-size: 12pt;
@@ -27,6 +39,11 @@ p {
 	flex-grow: 2;
 	align-self: center;
 }
+
+.intend {
+	margin-left: 5%;
+}
+
 
 .values {
 	margin: 5px 0;
@@ -54,6 +71,11 @@ p {
 	text-align: start;
 }
 
+.int {
+	text-align: center;
+}
+
+
 #CalPerG {
 	flex-basis: 100%;
 	justify-self: flex-start;
@@ -63,5 +85,4 @@ p {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-
 }
