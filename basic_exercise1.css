@@ -1,0 +1,36 @@
+#css a { 
+	font-size: 16pt;
+	color: red;
+
+
+}
+
+#css a:hover {
+	font-size: 32pt;
+	color: violet;
+
+}
+
+a {
+	text-decoration: none;
+
+}
+
+#w3 a {
+	transition: font-size, color; 
+	transition-timing-function: ease-in;
+	transition-duration: 500ms;
+	-webkit-transform: rotateZ(90deg);
+}
+
+#w3 a:hover {
+	font-size: 32pt;
+	color: green;
+}
+
+#ciu a {
+	font-size: 16pt;
+	transition-duration: 500ms;
+	transform-style: rotate(-90deg); 
+
+}
