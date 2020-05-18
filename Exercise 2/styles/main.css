@@ -1,0 +1,31 @@
+#container {
+	width: 50%;
+}
+
+hr {
+	height: 1px;
+	flex-basis: 100%;
+	background-color: black;
+}
+
+p {
+	flex-shrink: 1;
+}
+
+#calories {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.description {
+	flex-grow: 2;
+	font-weight: bold;
+	align-self: center;
+}
+
+.values {
+	flex-basis: 15%;
+	align-self: center;
+	text-align: center;
+}
