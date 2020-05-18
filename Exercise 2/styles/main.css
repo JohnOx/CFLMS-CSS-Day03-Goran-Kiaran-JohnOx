@@ -1,5 +1,8 @@
 #container {
 	width: 50%;
+	border: 1px solid black;
+	padding: 5px;
+	font-family: arial;
 }
 
 hr {
@@ -10,6 +13,7 @@ hr {
 
 p {
 	flex-shrink: 1;
+	font-size: 12pt;
 }
 
 #calories {
@@ -19,13 +23,45 @@ p {
 }
 
 .description {
+	margin: 5px 0;
 	flex-grow: 2;
-	font-weight: bold;
 	align-self: center;
 }
 
 .values {
+	margin: 5px 0;
 	flex-basis: 15%;
 	align-self: center;
 	text-align: center;
+}
+
+#dailyVal {
+	margin: 5px 0;
+	flex-basis: 100%;
+	text-align: end;
+}
+
+#CalorieTable {
+	flex-basis: 100%;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	justify-content: space-between;
+}
+
+.CalVal {
+	flex-basis: 25%;
+	text-align: start;
+}
+
+#CalPerG {
+	flex-basis: 100%;
+	justify-self: flex-start;
+}
+
+#Stats {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
 }
